@@ -9,7 +9,7 @@ function App() {
       setstate(!state);
     };
     window.addEventListener("click", handlechange);
-  }, []);
+  }, [state]);
   return (
     <div className="App">
       <>
