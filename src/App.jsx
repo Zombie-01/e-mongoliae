@@ -8,7 +8,7 @@ function App() {
     const handlechange = () => {
       setstate(!state);
     };
-    // window.addEventListener("click", handlechange);
+    window.addEventListener("click", handlechange);
   }, []);
   return (
     <div className="App">
